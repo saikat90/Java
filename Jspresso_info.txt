@@ -1,0 +1,155 @@
+﻿docker volume create admindata
+docker volume create elasticdata
+docker volume create filebeatdata
+docker volume create masterdata
+docker volume create patdata
+docker volume create twoipdata
+docker volume create dwi
+
+
+Angular
+------------------
+npm install -g @angular/cli
+npm config set registry https://repos-dev.alstom.hub/repository/npm-proxy/
+npm config set sass-binary-site https://repos-dev.alstom.hub/repository/github-hosted/sass/node-sass/releases/download
+npm config set strict-ssl=false
+
+---Run cmd in Admin mode if you faced issue ----
+delete the node module folder
+npm cache clean -f
+npm i -f
+
+npm run build:ui-lib
+npm run start:dwi-client
+
+
+
+docker
+-----------
+dockerhub-private.alstom.hub
+dockerhub-public.alstom.hub
+
+ 
+
+https://dockerhub-private.alstom.hub
+https://dockerhub-public.alstom.hub
+
+ 
+
+
+docker volume create admindata
+docker volume create elasticdata
+docker volume create filebeatdata
+docker volume create masterdata
+docker volume create patdata
+docker volume create twoipdata
+docker volume create dwi
+docker volume create rexdata
+
+ 
+
+docker-compose -f docker-compose.local.yml build
+docker-compose -f docker-compose.local.yml up -d
+
+
+
+
+
+    Application link
+----------------------
+https://dev-myquickplace.alstom.hub/lotus-webapp/html5/index-desktop.html
+​
+    Wiki link
+----------------
+https://wiki.alstom.hub/xwiki/bin/view/Dashboard/AGILE%20Factory/DWI/
+
+
+C:\Software Jspresso\PKI\PKI>keytool -alias alstom-pki -import -storepass changeit -trustcacerts -keystore "C:\Program Files\Java\jdk-12.0.2\lib\security\cacerts" -file AlstomInfrastructure1.pem
+C:\Software Jspresso\PKI\PKI>keytool -alias jasperreports -import -storepass changeit -trustcacerts -keystore "C:\Program Files\Java\jdk-12.0.2\lib\security\cacerts" -file caroot1.pem
+
+
+
+
+netstat -ano | findstr 8761
+taskkill /PID 13600
+
+software.accenture.com
+​
+    
+
+ 
+
+Pulse Secure Client 5.3.4.1 Hotfix for Docker and Hyper V
+
+C:\Jspresso_Project\application_factory\clients> npm run start:admin-client
+
+ 
+
+
+100769630 / shanmugam.raj@alstomgroup.com / Abcdef@12346
+
+ Mobile Version
+ -------------------
+ http://localhost:8088/mobile-work-instructions
+
+
+UI start
+-------------
+npm run start:admin-client
+npm run start:dwi-client
+npm run start:pmfu-client
+npm run start:rex-client
+
+ 
+
+
+Environment
+-------------
+spring.profiles.active = local
+
+
+
+Jira
+-------------
+https://jira.alstom.hub/secure/Dashboard.jspa
+
+ 
+
+Wiki link
+----------------
+https://wiki.alstom.hub/xwiki/bin/view/Dashboard/AGILE%20Factory/DWI/
+
+ 
+ 
+ Staging URL
+ ---------------
+ https://pmfu-staging.alstom.hub/
+ https://dwi-staging.alstom.hub/
+ https://af-admin-staging.alstom.hub/
+ 
+
+Git 
+-----
+https://gitlab.alstom.hub/
+
+git clone git@gitlab.alstom.hub:agile/application_factory.git
+
+git config --global http.sslbackend schannel
+
+git checkout develop
+
+git pull
+
+Old Code
+----------------------
+https://myoffice.accenture.com/personal/shanmugam_raj_accenture_com/_layouts/15/onedrive.aspx?ct=1584435010272&or=OWA%2DNT&cid=d506536f%2D7dc8%2D7d72%2D15ae%2D8a6443ea0ca2&originalPath=aHR0cHM6Ly9teW9mZmljZS5hY2NlbnR1cmUuY29tLzpmOi9nL3BlcnNvbmFsL3NoYW5tdWdhbV9yYWpfYWNjZW50dXJlX2NvbS9Fa0dGaTdzOFdpSkRrejJPbUwtUTFkQUJNRUllSDI0bElQLTJWRGlSSXpUdW1nP3J0aW1lPWM4Ni1SRkRLMTBn&viewid=7c0dd9d5%2De6b4%2D4122%2D9236%2Ddc73c4996cc2&id=%2Fpersonal%2Fshanmugam%5Fraj%5Faccenture%5Fcom%2FDocuments%2FJspresso%5FMigration
+
+
+https://smartpay.allsectech.com/accenturelogin/SmartLogic/memberlogin.aspx
+https://people.accenture.com/People/user/amlan.de
+https://portal.accenture.com/#/myinfo
+
+https://mylearning.accenture.com/mylearningui/learner/coursedetail/1648947
+
+ 
+https://ijp-atci.accenture.com/home

@@ -1,0 +1,10 @@
+Please find below PMFU qlik prod url, 
+
+               https://af-api.alstom.hub/api/pmfu/qliksense/commodityStatus/kpi
+               https://af-api.alstom.hub/api/pmfu/qliksense/commodityContract/kpi
+               https://af-api.alstom.hub/api/pmfu/qliksense/commodityActionPlan/kpi
+
+For now, I have set the username & password as below, but this can be changed.
+
+username - alstompmfu
+password - Alstompmfu@123
